@@ -37,24 +37,38 @@ h4 {
 p {
     font-size: 15px;
     border: 1px solid black;
-    border-top: 0px;
+    border-top: 0;
     border-left: 0px;
     border-radius: 10px;
-    border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 2px;
     border-top-right-radius: 4px;
     padding-bottom: 2px;
+    padding-right: 2px;
+    padding-bottom: 4px;
     padding-right: 2px;
 
 }
 
 li{
-    list-style: none
+    list-style: none;
 }
 
 .img-planet{
     border-radius: 1000px;
     display: flex;
     float: right;
+
+}
+
+.img-planet:hover{
+transition: ease-in-out 0.5s;
+transform: scale(1.1);
+
+}
+
+#sa:hover{
+    transition: ease-in-out 0.5s;
+transform: scale(2);
 }
 
 .intext {
@@ -81,3 +95,12 @@ hr {
 	border-top: 2px double #8c8b8b;
 }
 
+video {
+
+    display: block;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    
+    }
