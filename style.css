@@ -112,6 +112,8 @@ footer{
     gap: 10px;
    
     flex-direction:row;
+    justify-content: space-between;
+    margin-bottom: 30px;
 
 }
 
@@ -135,7 +137,8 @@ flex-grow: 1;
 }
 
 .box{
-    flex-basis: 25%
+    flex-basis: 20%;
+    
 }
 
 a:link{
@@ -146,4 +149,9 @@ a:link{
 
 a:visited{
     color: #DDE6ED;
+}
+
+.box > p {
+    height: 200px;
+    overflow: scroll;
 }
