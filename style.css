@@ -1,19 +1,18 @@
 html {
-    background-color: antiquewhite;
+    background-color: #213555;
+    color: rgb(255, 255, 255)
 }
 
 h1 {
     font-size: 40px;
     display: flex;
     justify-content: center;
-    text-indent: 35px;
 }
 
 h2 {
     font-size: 25px;
     display: flex;
     justify-content: center;
-    text-indent: 35px;
 }
 
 h3 {
@@ -21,7 +20,7 @@ h3 {
     display: flex;
     justify-content: center;
     list-style: none;
-    border: 1px solid black;
+    border: 1px solid #DDE6ED;
     border-radius: 10px;
     border-bottom: 0px;
     border-right: 0px;
@@ -36,7 +35,7 @@ h4 {
 
 p {
     font-size: 15px;
-    border: 1px solid black;
+    border: 1px solid #DDE6ED;
     border-top: 0;
     border-left: 0px;
     border-radius: 10px;
@@ -55,8 +54,7 @@ li{
 
 .img-planet{
     border-radius: 1000px;
-    display: flex;
-    float: right;
+    float:
 
 }
 
@@ -92,7 +90,7 @@ transform: scale(2);
     }
 
 hr {
-	border-top: 2px double #8c8b8b;
+	border-top: 2px double #DDE6ED;
 }
 
 video {
@@ -104,3 +102,48 @@ video {
     margin-right: auto;
     
     }
+
+footer{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+   
+    flex-direction:row;
+
+}
+
+.container1{
+    display: flex;
+    gap: 10px;
+
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+
+.navbar{
+border: 1px solid #DDE6ED;
+border-radius: 15px;
+flex-basis: 50px;
+text-align: center;
+flex-grow: 1;
+
+
+}
+
+.box{
+    flex-basis: 25%
+}
+
+a:link{
+    text-decoration-line: none;
+    color: #DDE6ED;
+    
+}
+
+a:visited{
+    color: #DDE6ED;
+}
